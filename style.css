@@ -21,24 +21,23 @@ html, body {
 
 .bgcontainer {
     height: 100%;
-    min-width: 38%;
-    
+    min-width: 37%;
+    background-image: url(images/BG.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-.bgcontainer img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
 
-}
 .odinLogoText {
     color: white;
-    position: absolute;
-    top: 20%;
-    height: 12%;
+    margin-bottom: 800px;
     font-family: "NorseBold";
     font-size: 5rem;
     background-color: rgba(0,0,0,0.5);
-    width: 38%;
+    width: 100%;
+    height: 13%;
+    margin-top: 30%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -54,27 +53,16 @@ html, body {
 }
 
 .bgcontainer p {
-    position:absolute;
-    bottom: 0;
-    left: 16%;
     color: white;
-    
+    text-align: center;
 }
 
 .bgcontainer a {
     color: white;
+    
 }
 
-/* .transparentcontainer {
-    position: absolute;
-    top: 10%;
-    right: 5%;
-    background-color: rgba(0,0,0,0.5);
-    height: 150px;
-    width: 600px
-    
 
-} */
 
 
 .headercontainer {
@@ -106,16 +94,6 @@ html, body {
 
 
 
-/*.formcontainer  {
-    background-color: white;
-    height: 20%;
-    box-shadow: -1px 8px 5px -2px rgba(201,179,179,0.75);
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    
-    
-} */
 
 #formHeader {
     font-size: 20px;

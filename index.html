@@ -12,7 +12,6 @@
 <body>
     <div class="wholeContainer">
         <div class="bgcontainer">
-        <img src="images/BG.jpg" alt="">
         <div class="odinLogoText">
         <img src="images/odin-lined.png"  alt="">
             Odin
@@ -21,6 +20,7 @@
             
         </div>
         <p> Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie west</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+
         
     </div>
     
@@ -34,16 +34,17 @@
         <p class="HeaderContent">You <i>know</i> you want to.</p>
     
         
-        <form action="/index.html" method="post">
+        <form id="a-form">
             <p id="formHeader">Lets do this!</p>
             <div class="inputContainers">
             <ul class = "FORMCONTAINER">
-            <!-- "lets do this!" causes the overflow to happen weird shit with flex-->
+            
             <ul>
                 <li>
                     <label for="firstName">FIRST NAME</label>
                     <input type="text" id="firstName" name="firstName" />
                 </li>
+                <!-- idea for fixing issue with order of things when i nmobile, remove the inputcontainer div via js or smth-->
             </ul>
             <ul>
                 <li>
@@ -85,8 +86,9 @@
 
         </form>
      
-    <button>Create Account</button>
-    <p id="logIn">Already have an account? <a href="">Log in</a></p>
+        <button type="submit" form="a-form">Create account</button>
+        <p id="logIn">Already have an account? <a href="">Log in</a></p> 
+   
     
     </div>
 
