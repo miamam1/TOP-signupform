@@ -36,7 +36,7 @@ html, body {
     top: 20%;
     height: 12%;
     font-family: "NorseBold";
-    font-size: 80px;
+    font-size: 5rem;
     background-color: rgba(0,0,0,0.5);
     width: 38%;
     text-align: center;
@@ -77,7 +77,7 @@ html, body {
 
 
 .headercontainer {
-    background-color: #DEE1E6;
+    background-color: #f9fafb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,8 +86,42 @@ html, body {
     
 }
 
+.HeaderContent {
+    
+}
+
+
+.headercontainer button {
+    background-color:#596D48;
+	border-radius:10px;
+	border:1px solid #596D48;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:  1.2rem;;
+	padding:17px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    width: 230px;
+    height: 45px;
+    box-shadow: -1px 8px 5px -2px rgba(201,179,179,0.75);
+    margin: 35px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    
+    
+}
+
 .headercontainer p {
-    margin-left: 20px;
+    margin-left: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    word-wrap: break-word;
+    width: 85%;
 }
 
 
@@ -100,4 +134,14 @@ html, body {
     
 }
 
+#logIn {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: -10px;
+}
 
+#logIn a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
