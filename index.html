@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="wholeContainer">
@@ -41,21 +42,21 @@
             
             <ul>
                 <li>
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" id="firstName" name="firstName" />
+                    <label  for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName" required />
                 </li>
                 <!-- idea for fixing issue with order of things when i nmobile, remove the inputcontainer div via js or smth-->
             </ul>
             <ul>
                 <li>
                     <label for="Email">EMAIL</label>
-                    <input type="email" id="Email" name="Email">
+                    <input type="email" id="Email" name="Email" required>
                 </li>
             </ul>
             <ul>
                 <li>
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" required>
                 </li>
             </ul>
         </ul> 
@@ -64,20 +65,20 @@
                
                 <li>
                     <label for="lastName">LAST NAME</label>
-                    <input type="text" id="lastName" name="lastName">
+                    <input type="text" id="lastName" name="lastName" required>
                 </li>
                 
             </ul>
             <ul>
                 <li>
                     <label for="phoneNumber">PHONE NUMBER</label>
-                    <input type="tel" id="phoneNumber" name="phoneNumber">
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
                 </li>
             </ul>
             <ul>
                 <li>
                     <label for="confirmPassword">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirmPassword" name="confirmPassword">
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
                 </li>
             </ul>
             </ul>
@@ -86,7 +87,7 @@
 
         </form>
      
-        <button type="submit" form="a-form">Create account</button>
+        <button type="submit" form="a-form" onclick="passwordCheck()">Create account</button>
         <p id="logIn">Already have an account? <a href="">Log in</a></p> 
    
     
