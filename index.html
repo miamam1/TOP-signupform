@@ -32,11 +32,59 @@
     <div class="headercontainer">
         <p class="HeaderContent">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started. </p>
         <p class="HeaderContent">You <i>know</i> you want to.</p>
-    <div class="formcontainer">
-        <p>Lets do this!</p>
-    </div>   
+    
+        
+        <form action="/index.html" method="post">
+            <p id="formHeader">Lets do this!</p>
+            <ul>
+            <!-- "lets do this!" causes the overflow to happen weird shit with flex-->
+            <ul>
+                <li>
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName" />
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" name="lastName">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="Email">EMAIL</label>
+                    <input type="email" id="Email" name="Email">
+                </li>
+            </ul>
+        </ul> 
+        <ul>
+            <ul>
+                <li>
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword">
+                </li>
+            </ul>
+        </ul>
+         
+        
+
+        </form>
+     
     <button>Create Account</button>
     <p id="logIn">Already have an account? <a href="">Log in</a></p>
+    
     </div>
 
 </div>

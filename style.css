@@ -44,6 +44,7 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .odinLogoText img {
@@ -126,13 +127,55 @@ html, body {
 
 
 
-.formcontainer  {
+/*.formcontainer  {
     background-color: white;
     height: 20%;
     box-shadow: -1px 8px 5px -2px rgba(201,179,179,0.75);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    
+} */
+
+#formHeader {
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    background-color: white;
+    box-shadow: -1px 8px 5px -2px rgba(201,179,179,0.75);
+    flex-direction: row;
+    justify-content: flex-start;
+    flex: 1;
+    flex-grow: 0;
+    flex-basis: 200px;
+    
     
     
 }
+
+
+label,input {
+    display: flex;
+    margin-left: -40px;
+    
+    
+    
+}
+form ul { 
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 
 #logIn {
     font-size: 1rem;
@@ -145,3 +188,4 @@ html, body {
     text-decoration: none;
     font-weight: bold;
 }
+
